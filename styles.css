@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+h1 {font-size: 1em; font-weight: bold; text-align: center;}
+h3 {font-size: 0.75em; font-style: italic; text-align: center;}
+.gridArea {
+  display: grid;
+  grid-template-columns: 1fr 1fr; grid-template-rows: auto;
+  grid-template-areas: "lManual lService";
+  grid-gap: 10px;
+}
+.lManual {grid-area: lManual; background-color: aliceblue;}
+.lService {grid-area: lService; background-color: aliceblue;}
+
+body {
+  background-color:beige;
+}

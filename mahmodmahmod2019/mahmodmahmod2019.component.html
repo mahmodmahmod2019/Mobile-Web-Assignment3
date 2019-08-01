@@ -1,0 +1,30 @@
+ 
+              <ul>
+                    <li>
+              <div>
+                    <button *ngFor="let cls of myBooks; let i=index" id="s{{i}}" (click)="onButtonClick(i)">
+                         {{i+1}} {{cls.bookname}}
+                        
+                        </button>
+                  </div> 
+                   <br>
+                    
+                        <div>
+                          
+                            <strong>Book Name: {{bookSelected.bookname}}</strong><br>
+                             <strong>Author Name: {{bookSelected.author}}</strong>  <br> 
+                            <strong>Book Genre: {{bookSelected.bookGenre}}</strong>  <br> 
+                            <strong>Year Published: {{bookSelected.year}}</strong>  <br> 
+                          
+                            
+                        </div>    
+                   
+                <section>
+                    <div id="bookCover">
+                          <img id="bookImage" class="images" src={{bookSelected.picture}} alt="picture here" height="400px" width="400px">  
+                    </div>  
+                </section>
+            
+                     
+</li>
+</ul>
