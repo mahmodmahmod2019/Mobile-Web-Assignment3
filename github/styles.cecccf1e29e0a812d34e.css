@@ -1,0 +1,1 @@
+h1{font-size:1em;font-weight:700;text-align:center}h3{font-size:.75em;font-style:italic;text-align:center}.gridArea{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto;grid-template-areas:"lManual lService";grid-gap:10px}.lManual{grid-area:lManual;background-color:#f0f8ff}.lService{grid-area:lService;background-color:#f0f8ff}body{background-color:beige}
